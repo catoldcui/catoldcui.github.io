@@ -1,11 +1,14 @@
 ---
+layout: splash
 title: “精通老友记”隐私政策
 categories: [blog, app]
 tags: [policy, friends, app]
 toc: true
+header:
+    overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g002vujf8ej20u00dcqbz.jpg
+    overlay_filter: 0.5
+author_profile: false
 ---
-
-![Friend](http://ww1.sinaimg.cn/mw690/69611997ly1g002vujf8ej20u00dcqbz.jpg)
 
 # 隐私政策
 
