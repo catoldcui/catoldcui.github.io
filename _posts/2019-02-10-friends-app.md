@@ -8,12 +8,12 @@ header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
-      - label: "Baidu Store"
-        url: "https://mobile.baidu.com/item?docid=25538290"
+      - label: "APK File"
+        url: "https://tac-friends-ho-1258406374.cos.ap-chengdu.myqcloud.com/app.apk"
       - label: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.catold.project.friends"
       - label: "IOS Reviewing..."
-        url: "#"
+        url: "https://itunes.apple.com/cn/app/id1451917623"
       - label: "IOS Beta TestFilight"
         url: "https://testflight.apple.com/join/9BRT8O51"
 feature_row:
