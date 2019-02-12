@@ -8,8 +8,8 @@ header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
-      - label: "APK File"
-        url: "https://tac-friends-ho-1258406374.cos.ap-chengdu.myqcloud.com/app.apk"
+      - label: "豌豆荚"
+        url: "https://m.wandoujia.com/apps/com.catold.project.friends"
       - label: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.catold.project.friends"
       - label: "IOS Reviewing..."
