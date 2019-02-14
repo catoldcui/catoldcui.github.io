@@ -8,8 +8,8 @@ header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
-      - label: "豌豆荚"
-        url: "https://m.wandoujia.com/apps/com.catold.project.friends"
+      - label: "Latest APK File"
+        url: "https://www.wandoujia.com/apps/com.catold.project.friends/download/dot?ch=detail_normal_dl"
       - label: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.catold.project.friends"
       - label: "IOS Reviewing..."
