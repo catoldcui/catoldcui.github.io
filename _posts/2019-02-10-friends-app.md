@@ -8,14 +8,12 @@ header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
+      - label: "IOS"
+        url: "https://itunes.apple.com/cn/app/id1451917623"
       - label: "Latest APK File"
         url: "https://www.wandoujia.com/apps/com.catold.project.friends/download/dot?ch=detail_normal_dl"
       - label: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.catold.project.friends"
-      - label: "IOS Reviewing..."
-        url: "https://itunes.apple.com/cn/app/id1451917623"
-      - label: "IOS Beta TestFilight"
-        url: "https://testflight.apple.com/join/9BRT8O51"
 feature_row:
   - image_path: http://ww1.sinaimg.cn/mw690/69611997ly1g0175zhm22j20yi1pcag8.jpg
     alt: "all episodes"
