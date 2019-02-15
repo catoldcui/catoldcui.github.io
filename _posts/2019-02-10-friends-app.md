@@ -10,8 +10,10 @@ header:
     actions:
       - label: "IOS"
         url: "https://itunes.apple.com/cn/app/id1451917623"
-      - label: "Latest APK File"
-        url: "https://www.wandoujia.com/apps/com.catold.project.friends/download/dot?ch=detail_normal_dl"
+      - label: "华为市场"
+        url: "http://a.vmall.com/uowap/index.html#/detailApp/C100553267"
+      - label: "豌豆荚"
+        url: "https://www.wandoujia.com/apps/com.catold.project.friends"
       - label: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.catold.project.friends"
 feature_row:
