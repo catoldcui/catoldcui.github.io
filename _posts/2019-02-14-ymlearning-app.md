@@ -8,12 +8,14 @@ header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
+      - label: "IOS"
+        url: "https://itunes.apple.com/cn/app/id1452981630"
       - label: "Huawei Store"
         url: "http://a.vmall.com/uowap/index.html#/detailApp/C100610489"
+      - label: "Huawei Store"
+        url: "https://www.wandoujia.com/apps/com.catold.app.ymlearning"
       - label: "Google Play"
         url: "https://play.google.com/store/apps/details?id=com.catold.app.ymlearning"
-      # - label: "IOS Reviewing..."
-      #   url: "https://itunes.apple.com/cn/app/id1451917623"
       # - label: "IOS Beta TestFilight"
       #   url: "https://testflight.apple.com/join/9BRT8O51"
 feature_row:
