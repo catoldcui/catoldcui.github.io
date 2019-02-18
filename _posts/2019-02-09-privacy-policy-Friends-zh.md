@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: “精通老友记”隐私政策
+title: “老友记练听力”隐私政策
 categories: [blog, app]
 tags: [policy, friends, app]
 toc: true

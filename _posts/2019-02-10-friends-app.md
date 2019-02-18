@@ -1,5 +1,5 @@
 ---
-title: 精通老友记-英语口语听力学习APP
+title: 老友记练听力-英语口语听力学习APP
 categories: [blog, app]
 tags: [download, friends, app]
 layout: splash
@@ -8,7 +8,7 @@ header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
-      - label: "IOS"
+      - label: "iOS"
         url: "https://itunes.apple.com/cn/app/id1451917623"
       - label: "华为市场"
         url: "http://a.vmall.com/uowap/index.html#/detailApp/C100553267"
