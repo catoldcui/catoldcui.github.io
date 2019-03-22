@@ -1,10 +1,20 @@
 ---
 layout: splash
-title: 老友记练听力-IOS更新日志
+title: 练听力-IOS更新日志
 categories: [blog, app]
 tags: [friends, app, changelog]
 layout: splash
 ---
+
+### 1.4
+- 添加单词收藏备注功能（在设置中默认关闭）
+- 添加设置页面，侧边栏更整洁
+- 优化收藏页面
+
+### 1.3
+- 添加台词语句在线翻译
+- 优化单词查询窗口
+- 修复通知bug
 
 ### 1.2
 - 测验功能：考察听力，记忆力以及语法

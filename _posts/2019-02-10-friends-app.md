@@ -1,15 +1,17 @@
 ---
-title: 老友记练听力-英语口语听力学习APP
+title: 练听力-英语口语听力学习APP
 categories: [blog, app]
 tags: [download, friends, app]
 layout: splash
-excerpt: 支持功能：同步字幕、调节语速、点播、在线离线词典、收藏复习功能、精校老友记全季剧本！ [Android更新日志](/blog/app/friends-app-android-changelog) [IOS更新日志](/blog/app/friends-app-ios-changelog)
+excerpt: 支持功能：同步字幕、调节语速、点播、在线离线词典、收藏复习功能、精校全季剧本！ [Android更新日志](/blog/app/friends-app-android-changelog) [IOS更新日志](/blog/app/friends-app-ios-changelog)
 header:
     overlay_image: http://ww1.sinaimg.cn/mw690/69611997ly1g0169l6thcj22801e01kz.jpg
     overlay_filter: 0.5
     actions:
       - label: "iOS"
         url: "https://itunes.apple.com/cn/app/id1451917623"
+      - label: "小米市场"
+        url: "http://app.mi.com/details?id=com.catold.project.friends"
       - label: "华为市场"
         url: "http://a.vmall.com/uowap/index.html#/detailApp/C100553267"
       - label: "豌豆荚"
