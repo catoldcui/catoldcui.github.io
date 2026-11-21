@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tidepop: Roguelike Puzzle</title>
+<meta name="description" content="One tap. One chain reaction. Tap one drop, watch it burst and chain across the board, and get the tide moving again. Free to play. No ads.">
+<link rel="canonical" href="https://catoldcui.github.io/drop-burst/tidepop/">
+<meta name="theme-color" content="#0c4a7a">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Tidepop: Roguelike Puzzle">
+<meta property="og:description" content="One tap. One chain reaction.">
+<meta property="og:url" content="https://catoldcui.github.io/drop-burst/tidepop/">
+<meta property="og:image" content="https://catoldcui.github.io/drop-burst/tidepop/img/icon.jpg">
+<meta name="twitter:card" content="summary">
+<style>
+:root{--deep:#06223f;--sea:#0c4a7a;--ice:#8ce9ff;--text:#f2fbff;--muted:#b9d8ec}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;position:relative;overflow-x:hidden;color:var(--text);font:17px/1.65 ui-rounded,"SF Pro Rounded",system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#031529 linear-gradient(180deg,#1a86c4 0,var(--sea) 260px,var(--deep) 720px,#031529 1500px) no-repeat}
+body::before{content:"";position:absolute;inset:0 0 auto 0;height:760px;pointer-events:none;background:
+radial-gradient(circle at 12% 18%,#ffffff26 0 22px,transparent 23px),
+radial-gradient(circle at 86% 12%,#ffffff1f 0 34px,transparent 35px),
+radial-gradient(circle at 78% 42%,#ffffff1a 0 14px,transparent 15px),
+radial-gradient(circle at 8% 52%,#ffffff1a 0 18px,transparent 19px),
+radial-gradient(ellipse at 50% -10%,#bfefff55,transparent 60%)}
+main,footer{position:relative;max-width:64rem;margin:0 auto;padding:0 1.1rem}
+a{color:var(--ice)}
+a:focus-visible,.shots:focus-visible{outline:3px solid #fff;outline-offset:3px;border-radius:6px}
+.hero{text-align:center;padding-top:2.2rem}
+h1{margin:0;line-height:0}
+.logo{width:min(72vw,300px);height:auto;filter:drop-shadow(0 8px 18px #031529aa)}
+.sub{margin:.9rem 0 0;font-size:1.35rem;font-weight:700;letter-spacing:.01em}
+.get{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.9rem 1.1rem;max-width:36rem;margin:1.5rem auto 0;padding:1rem 1.2rem;border:1px solid #8ce9ff40;border-radius:24px;background:#06223fb3}
+.icon{width:88px;height:88px;border-radius:22.37%;box-shadow:0 4px 14px #0008}
+.get-text{text-align:left;line-height:1.35}
+.get-text strong{display:block}
+.get-text span{color:var(--muted);font-size:.92rem}
+.btn{display:inline-block;min-height:48px;padding:.75rem 1.5rem;border-radius:999px;background:var(--ice);color:var(--deep);font-weight:800;text-decoration:none;box-shadow:0 6px 18px #0006}
+.btn:hover{background:#b4f1ff}
+.shots{display:grid;grid-auto-flow:column;grid-auto-columns:min(62vw,250px);gap:14px;margin:2.2rem -1.1rem 0;padding:.4rem 1.1rem 1rem;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding:0 1.1rem}
+.shots figure{margin:0;scroll-snap-align:start}
+.shots img{display:block;width:100%;height:auto;border-radius:18px;box-shadow:0 10px 26px #031529cc}
+.about{max-width:42rem;margin:1.6rem auto 0}
+.about h2{margin:0 0 .4rem;font-size:1.25rem}
+.about p{margin:.6rem 0}
+.about ul{margin:.6rem 0;padding-left:1.2rem}
+.about li{margin:.35rem 0}
+.free{margin-top:1.1rem;padding:.8rem 1rem;border-left:4px solid var(--ice);background:#8ce9ff1a;border-radius:0 12px 12px 0;font-weight:700}
+.links{max-width:42rem;margin:2rem auto 0;padding-top:1.3rem;border-top:1px solid #8ce9ff33;display:grid;gap:1.1rem 2rem;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr))}
+.links h2{margin:0 0 .3rem;font-size:1rem;color:var(--muted);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.links ul{list-style:none;margin:0;padding:0}
+.links li{margin:.1rem 0}
+.links a{display:inline-block;padding:.35rem 0}
+footer{padding-top:2rem;padding-bottom:3rem;font-size:.8rem;line-height:1.5;color:var(--muted);text-align:center}
+footer p{margin:.4rem auto;max-width:42rem}
+@media(min-width:900px){
+.hero{padding-top:3.2rem}
+.logo{width:340px}
+.sub{font-size:1.6rem}
+.shots{grid-auto-columns:1fr;overflow:visible;margin:2.6rem 0 0;padding:.4rem 0 1rem;max-width:62rem;margin-inline:auto}
+}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+<h1><img class="logo" src="img/logo.png" width="380" height="288" alt="Tidepop"></h1>
+<p class="sub">One tap. One chain reaction.</p>
+<div class="get">
+<img class="icon" src="img/icon.jpg" width="256" height="256" alt="Tidepop app icon">
+<div class="get-text"><strong>Tidepop: Roguelike Puzzle</strong><span>For iPhone and iPad</span></div>
+<a class="btn" href="https://apps.apple.com/app/id6835323562" rel="noopener">Tidepop on the App Store</a>
+</div>
+</header>
+
+<section class="shots" tabindex="0" aria-label="Tidepop screenshots">
+<figure><img src="img/shot-chain.jpg" width="560" height="1216" alt="One tap sets off a 30-drop chain: Mega Tsunami!" loading="lazy"></figure>
+<figure><img src="img/shot-bosses.jpg" width="560" height="1216" alt="Three seas, three bosses: the Reef Crab General waits in the Shallows" loading="lazy"></figure>
+<figure><img src="img/shot-divers.jpg" width="560" height="1216" alt="The Dive Station: pick one of four divers" loading="lazy"></figure>
+<figure><img src="img/shot-clear.jpg" width="560" height="1216" alt="Beat the target and earn up to three stars" loading="lazy"></figure>
+</section>
+
+<section class="about">
+<h2>The sea has stopped.</h2>
+<p>Tap one drop. It fills, it bursts, and it sprays water four ways to the nearest drop in each direction, so those burst too. Pop, pop, pop: one tap can chain across the whole board.</p>
+<ul>
+<li><strong>One tap, one huge chain.</strong> Every drop in the chain adds score and stacks the multiplier. The right tap beats a hundred random ones.</li>
+<li><strong>A new build every dive.</strong> Pick one of 4 divers, mix 6 weapons, 34 relics and 5 cursed treasures, cross three seas, beat three bosses, then dive deeper through <span style="white-space:nowrap">Depths 1&ndash;10</span>.</li>
+<li><strong>A new sea every day.</strong> The Daily Sea gives every player the same board. Share a seed or challenge link and race a friend on the exact same sea.</li>
+</ul>
+<p class="free">Free to play: every chapter and Depth is open. No ads.</p>
+</section>
+
+<nav class="links" aria-label="Links">
+<div>
+<h2>Tidepop</h2>
+<ul>
+<li><a href="../privacy-en.html">Privacy Policy</a></li>
+<li><a href="../terms-en.html">Terms of Use</a></li>
+<li><a href="../index.html">Support</a></li>
+</ul>
+</div>
+<div>
+<h2>Follow</h2>
+<ul>
+<li><a href="https://x.com/tidepop_game" rel="noopener">X: @tidepop_game</a></li>
+<li><a href="https://www.tiktok.com/@catold_game" rel="noopener">TikTok: @catold_game</a></li>
+<li><a href="https://www.reddit.com/r/tidepop/" rel="noopener">Reddit: r/tidepop</a></li>
+</ul>
+</div>
+</nav>
+</main>
+<footer>
+<p>Apple, iPhone and iPad are trademarks of Apple Inc., registered in the U.S. and other countries. App Store is a service mark of Apple Inc.</p>
+</footer>
+</body>
+</html>
